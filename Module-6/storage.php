@@ -1,7 +1,8 @@
 <?php
     $textStorage = [];
 
-    function addPost(string $title, string $text, &$textStorage): void {
+    function addPost(string $title, string $text, &$textStorage): void
+    {
         $textStorage[] = ['title' => $title, 'text' => $text];
     }
 
